@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="nama-file">form.html</p>
+
+    <div class="container">
+        <h2>Formulir Pendaftaran</h2>
+
+        <form>
+            <label>Nama Lengkap:</label>
+            <input type="text" placeholder="Masukkan nama">
+
+            <label>Email:</label>
+            <input type="email" placeholder="nama@email.com">
+
+            <label>Password:</label>
+            <input type="password">
+
+            <label>Umur:</label>
+            <input type="number" class="input-kecil">
+
+            <label>Tanggal Lahir:</label>
+            <input type="date">
+
+            <label>Jenis Kelamin:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender"> Laki-laki</label>
+                <label><input type="radio" name="gender"> Perempuan</label>
+            </div>
+
+            <label>Hobi:</label>
+            <div class="check-group">
+                <label><input type="checkbox"> Coding</label>
+                <label><input type="checkbox"> Gaming</label>
+                <label><input type="checkbox"> Olahraga</label>
+            </div>
+
+            <label>Jurusan:</label>
+            <select>
+                <option>-- Pilih Jurusan --</option>
+                <option>Sistem Informasi</option>
+                <option>Informatika</option>
+                <option>Manajemen</option>
+            </select>
+
+            <label>Alamat:</label>
+            <textarea placeholder="Masukkan alamat" rows="4"></textarea>
+
+            <label>Foto:</label>
+            <input type="file">
+
+            <label>Website:</label>
+            <input type="url" placeholder="https://example.com">
+
+            <div class="tombol">
+                <button type="submit">Kirim</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
